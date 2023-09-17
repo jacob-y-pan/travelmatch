@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  margin: 0;
+  color: rgb(218, 218, 218);
+  background: #232323;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@font-face {
+  font-family: "Firacoderegular";
+  src: url("./Firacoderegular.ttf");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Thin";
+  src: url("./SFProDisplay-Thin.ttf");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("./SFProDisplay-Regular.ttf");
+}
+
+.main{
+  display: flex;
+  flex-direction: column
+}
+
+.yarn{
+  color: rgb(163, 163, 163)
+}
+
+.tympanus{
+  font-family: "SFProDisplay-Thin";
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(218, 218, 218);
+}
+
+span{
+  color:#499bb2
+}
+
+.install{
+  margin-top: -5px;
+  font-family: "Firacoderegular";
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: #363636;
+  width: 290px;
+  font-size: 16px;
+  line-height: 5px;
+  padding-left: 10px
+}
+
+.toggleSelect{
+  width: 200px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  color: rgb(73, 73, 73)
+}
